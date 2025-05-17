@@ -31,10 +31,16 @@ import ProjectCard from "@/components/ProjectCard.vue";
 
 const notebooks = [
   {
-    title: "NYC 311 API Project",
+    title: "API & EDA : NYC 311 Complaints",
     description:
       "Data pipeline project for fetching, cleaning, and analyzing NYC 311 service requests.",
     link: "https://github.com/simon-hochmuth/portfolio/tree/master/src/scripts/NYC_311_API_Project/notebooks/311_eda.ipynb",
+  },
+  {
+    title: "StreamLit : NYC 311 Complaints",
+    description:
+      "Pulled the data from the API Pipeline and made a Streamlit web application.",
+    link: "https://simonhochmuth.streamlit.app/",
   },
   {
     title: "Ship Prediction in Satellite Images",
