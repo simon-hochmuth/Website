@@ -22,13 +22,6 @@
           Home
         </router-link>
         <router-link
-          to="/projects"
-          class="text-gray-300 hover:text-white hover:border-b-2 border-white pb-1"
-          active-class="text-white border-b-2 border-white"
-        >
-          Projects
-        </router-link>
-        <router-link
           to="/school"
           class="text-gray-300 hover:text-white hover:border-b-2 border-white pb-1"
           active-class="text-white border-b-2 border-white"
@@ -36,18 +29,25 @@
           School
         </router-link>
         <router-link
-          to="/about"
-          class="text-gray-300 hover:text-white hover:border-b-2 border-white pb-1"
-          active-class="text-white border-b-2 border-white"
-        >
-          About
-        </router-link>
-        <router-link
           to="/resume"
           class="text-gray-300 hover:text-white hover:border-b-2 border-white pb-1"
           active-class="text-white border-b-2 border-white"
         >
           Resume
+        </router-link>
+        <router-link
+          to="/projects"
+          class="text-gray-300 hover:text-white hover:border-b-2 border-white pb-1"
+          active-class="text-white border-b-2 border-white"
+        >
+          Projects
+        </router-link>
+        <router-link
+          to="/about"
+          class="text-gray-300 hover:text-white hover:border-b-2 border-white pb-1"
+          active-class="text-white border-b-2 border-white"
+        >
+          About
         </router-link>
         <router-link
           to="/contact"
