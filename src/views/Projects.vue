@@ -1,6 +1,7 @@
 <template>
   <div class="page">
-    <h2 class="major">Projects</h2>
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-6">Projects</h2>
+
     <ProjectCard
       v-for="(project, index) in projects"
       :key="index"
