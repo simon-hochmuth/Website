@@ -4,14 +4,14 @@ import Home from "../views/Home.vue";
 import Projects from "../views/Projects.vue";
 import School from "../views/School.vue";
 import About from "../views/About.vue";
-import Contact from "../views/Contact.vue";
+import Resume from "../views/Resume.vue"; // ✅ You probably added this
 
 const routes = [
   { path: "/", component: Home },
   { path: "/projects", component: Projects },
   { path: "/school", component: School },
   { path: "/about", component: About },
-  { path: "/contact", component: Contact },
+  { path: "/resume", name: "Resume", component: Resume }, // ✅ Add this line
 ];
 
 const router = createRouter({
