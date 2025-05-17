@@ -12,11 +12,24 @@
         <h3 class="text-2xl font-semibold text-blue-700 mb-3">
           🧠 Professional Focus
         </h3>
-        <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li>Advanced analytics & dashboarding (Python, SQL, Tableau)</li>
-          <li>Forecasting models and ML for finance & workforce planning</li>
-          <li>End-to-end data pipelines (Databricks, AWS, MongoDB)</li>
-          <li>Executive reporting & stakeholder communication</li>
+        <ul class="list-disc list-inside space-y-2 text-left text-gray-700">
+          <li>
+            Advanced analytics & interactive dashboards (Python, SQL, Tableau,
+            Streamlit)
+          </li>
+          <li>
+            Forecasting & machine learning for finance and workforce planning
+          </li>
+          <li>
+            Full-stack web apps (Vue, Vite, C#, .NET, JavaScript, Next.js)
+          </li>
+          <li>
+            C-suite reporting, consulting, and executive stakeholder engagement
+          </li>
+          <li>
+            End-to-end data pipelines (Databricks, AWS, Spark, MongoDB, SQL,
+            Python)
+          </li>
         </ul>
       </div>
 
@@ -24,7 +37,7 @@
         <h3 class="text-2xl font-semibold text-green-700 mb-3">🌍 Personal</h3>
         <ul class="list-disc list-inside text-gray-700 space-y-2">
           <li>Relocating to NYC in 2025 — open to new opportunities</li>
-          <li>Climber, technologist, and coffee enthusiast</li>
+          <li>Climber, hiker, technologist, and coffee enthusiast</li>
           <li>Always learning — currently exploring LLMs & agent workflows</li>
         </ul>
       </div>
