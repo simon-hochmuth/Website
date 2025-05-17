@@ -40,7 +40,7 @@ const notebooks = [
     title: "StreamLit : NYC 311 Complaints",
     description:
       "Pulled the data from the API Pipeline and made a Streamlit web application.",
-    link: "https://simonhochmuth.streamlit.app/",
+    link: "https://311nyccomplaints.streamlit.app/",
   },
   {
     title: "Ship Prediction in Satellite Images",
