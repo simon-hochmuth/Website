@@ -1,45 +1,46 @@
 <template>
-  <section class="page">
-    <h2>Contact</h2>
-    <p>
-      Feel free to reach out for collaborations, questions, or job
-      opportunities.
+  <section class="max-w-3xl mx-auto px-4 py-12">
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-6">About Me</h2>
+    <p class="text-center text-gray-600 text-lg mb-10">
+      I'm a data scientist with a background in analytics, automation, and
+      strategic consulting. I help organizations unlock value from their data
+      through tools, insights, and smart forecasting.
     </p>
-    <ul>
-      <li>
-        Email:
-        <a href="mailto:Simon.Hochmuth@gmail.com">Simon.Hochmuth@gmail.com</a>
-      </li>
-      <li>Phone: 301-789-7215</li>
-      <li>
-        <a href="https://www.linkedin.com/in/simon-hochmuth/" target="_blank"
-          >LinkedIn</a
-        >
-      </li>
-      <li>
-        <a href="https://github.com/simon-hochmuth/portfolio" target="_blank"
-          >GitHub</a
-        >
-      </li>
-    </ul>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white shadow rounded-lg p-6">
+        <h3 class="text-2xl font-semibold text-blue-700 mb-3">
+          🧠 Professional Focus
+        </h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>Advanced analytics & dashboarding (Python, SQL, Tableau)</li>
+          <li>Forecasting models and ML for finance & workforce planning</li>
+          <li>End-to-end data pipelines (Databricks, AWS, MongoDB)</li>
+          <li>Executive reporting & stakeholder communication</li>
+        </ul>
+      </div>
+
+      <div class="bg-white shadow rounded-lg p-6">
+        <h3 class="text-2xl font-semibold text-green-700 mb-3">🌍 Personal</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>Relocating to NYC in 2025 — open to new opportunities</li>
+          <li>Climber, technologist, and coffee enthusiast</li>
+          <li>Always learning — currently exploring LLMs & agent workflows</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-12 text-center text-gray-600">
+      <p>
+        Want to collaborate or hire me?
+        <router-link to="/contact" class="text-blue-600 underline"
+          >Reach out</router-link
+        >.
+      </p>
+    </div>
   </section>
 </template>
 
-<script setup></script>
-
-<style scoped>
-.page {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 1rem;
-}
-</style>
+<script setup>
+defineProps(); // with no props or incorrect syntax
+</script>

@@ -14,7 +14,7 @@
       I'm relocating to NYC this year and open to new opportunities. If you're
       hiring or want to connect, feel free to
       <router-link
-        to="/contact"
+        to="/about"
         class="text-blue-600 font-medium hover:underline"
       >
         reach out </router-link
