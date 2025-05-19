@@ -4,9 +4,6 @@
   <div class="page">
     <h2 class="text-4xl font-bold text-center text-gray-800 mb-6">Projects</h2>
 
-    <h3 class="text-2xl font-semibold text-gray-700 mb-4">
-      Jupyter Notebooks & .py Projects
-    </h3>
     <ProjectCard
       v-for="(project, index) in notebooks"
       :key="'nb-' + index"
