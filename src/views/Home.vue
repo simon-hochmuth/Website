@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-3xl mx-auto mt-24 px-6 text-center">
-    <h1 class="text-5xl font-bold text-gray-800 mb-3">Simon Hochmuth</h1>
-    <h2 class="text-1.5xl text-blue-600 font-semibold mb-6">
+    <h1 class="text-4xl font-bold text-gray-800 mb-3">Simon Hochmuth</h1>
+    <h2 class="text-1.4xl text-blue-600 font-semibold mb-6">
       Consultant | Data Scientist | Advanced Analytics | Business Intelligence
     </h2>
 
