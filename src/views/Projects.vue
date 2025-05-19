@@ -1,4 +1,6 @@
 <template>
+  <!-- <div class="bg-purple-200 py-6"> -->
+
   <div class="page">
     <h2 class="text-4xl font-bold text-center text-gray-800 mb-6">Projects</h2>
 
@@ -11,8 +13,9 @@
       :title="project.title"
       :description="project.description"
       :link="project.link"
+      :isIframe="project.isIframe"
     />
-
+    <hr class="my-8 border-blue-600" />
     <h3 class="text-2xl font-semibold text-gray-700 mt-10 mb-4">
       Master’s Course Reports (PDFs)
     </h3>

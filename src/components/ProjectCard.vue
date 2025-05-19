@@ -4,7 +4,19 @@
   >
     <h3 class="text-xl font-semibold text-gray-800 mb-2">{{ title }}</h3>
     <p class="text-gray-600 mb-4">{{ description }}</p>
+
+    <!-- Show iframe if isIframe is true -->
+    <div v-if="isIframe" class="w-full h-[500px]">
+      <iframe
+        :src="link"
+        class="w-full h-full rounded-md border border-gray-300"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- Fallback to regular link -->
     <a
+      v-else
       :href="link"
       target="_blank"
       class="inline-block text-blue-600 font-medium hover:underline"
@@ -19,5 +31,9 @@ defineProps({
   title: String,
   description: String,
   link: String,
+  isIframe: {
+    type: Boolean,
+    default: false,
+  },
 });
 </script>
