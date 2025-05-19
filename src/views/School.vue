@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-3xl mx-auto px-4 py-12">
     <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
-      Education Summary
+      Education
     </h2>
 
     <!-- Formal Education -->
@@ -143,7 +143,8 @@
         </p>
         <p class="text-gray-600 mb-2">
           <strong>Tools:</strong> Python, SQL, Pandas, NumPy, Scikit-learn,
-          Matplotlib, Seaborn, TensorFlow, Keras
+          Matplotlib, Seaborn, TensorFlow, Keras, Supervised Learning, Unsupervised Learning,
+          Machine Learning
         </p>
         <a
           href="/Chegg_Certificate.pdf"
