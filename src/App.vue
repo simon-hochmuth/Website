@@ -12,7 +12,7 @@
         <router-view />
       </div>
 
-      <!-- Footer -->
+      <!-- Footer
       <footer class="text-right text-white mt-6 pr-6 pb-6">
         <a
           href="mailto:simon.hochmuth@gmail.com"
@@ -27,7 +27,7 @@
         >
           LinkedIn Profile
         </a>
-      </footer>
+      </footer> -->
     </main>
   </div>
 </template>
