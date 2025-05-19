@@ -113,9 +113,7 @@
           </li>
         </ul>
 
-        <a class="text-blue-600 hover:underline text-sm">
-          Bachelor's → GPA: 3.34 / 4.00
-        </a>
+        <a class="text-blue-600"> Bachelor's → GPA: 3.34 / 4.00 </a>
       </div>
     </div>
     <hr class="my-8 border-blue-600" />
@@ -143,8 +141,8 @@
         </p>
         <p class="text-gray-600 mb-2">
           <strong>Tools:</strong> Python, SQL, Pandas, NumPy, Scikit-learn,
-          Matplotlib, Seaborn, TensorFlow, Keras, Supervised Learning, Unsupervised Learning,
-          Machine Learning
+          Matplotlib, Seaborn, TensorFlow, Keras, Supervised Learning,
+          Unsupervised Learning, Machine Learning
         </p>
         <a
           href="/Chegg_Certificate.pdf"
@@ -164,7 +162,8 @@
         <p class="text-gray-600 mb-2">
           <strong>Coursework:</strong> Experimental Design, A/B Testing, APIs,
           Time Series, Deep Learning<br />
-          <strong>Tools:</strong> Python, SQL, Tableau, Spark, TensorFlow, Keras
+          <strong>Tools:</strong> Python, SQL, Tableau, Spark, TensorFlow,
+          Keras, Sci-Kit Learn, Pandas, Numpy
         </p>
         <a
           href="/GeneralAssembly_Certificate.pdf"

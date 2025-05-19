@@ -36,9 +36,11 @@
       <div class="bg-white shadow rounded-lg p-6">
         <h3 class="text-2xl font-semibold text-green-700 mb-3">🌍 Personal</h3>
         <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li>Relocating to NYC in 2025 — open to new opportunities</li>
-          <li>Climber, hiker, technologist, and coffee enthusiast</li>
-          <li>Always learning — currently exploring LLMs & agent workflows</li>
+          <li>Open to new opportunities</li>
+          <li>Climber, hiker, technologist and soccer enthusiast</li>
+          <li>
+            Always learning — currently exploring frameworks like Vue/Next.JS
+          </li>
         </ul>
       </div>
     </div>

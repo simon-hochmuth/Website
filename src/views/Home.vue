@@ -16,8 +16,7 @@
     </p>
 
     <p class="text-lg text-gray-700 leading-relaxed">
-      I'm relocating to New York City and open to new opportunities in tech,
-      finance, or consulting. If you're hiring—or just want to connect—
+      If you're hiring—or just want to connect—
       <router-link
         to="/contact"
         class="text-blue-600 font-medium hover:underline"

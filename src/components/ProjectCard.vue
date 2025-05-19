@@ -14,14 +14,15 @@
       ></iframe>
     </div>
 
-    <!-- Fallback to regular link -->
+    <!-- Show link only if not iframe -->
     <a
       v-else
       :href="link"
+      :download="download ? '' : null"
       target="_blank"
       class="inline-block text-blue-600 font-medium hover:underline"
     >
-      View Project →
+      {{ download ? "Click here to download PDF" : "View Project →" }}
     </a>
   </div>
 </template>
@@ -32,6 +33,10 @@ defineProps({
   description: String,
   link: String,
   isIframe: {
+    type: Boolean,
+    default: false,
+  },
+  download: {
     type: Boolean,
     default: false,
   },

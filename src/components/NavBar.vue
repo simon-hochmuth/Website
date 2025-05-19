@@ -17,9 +17,10 @@
         <router-link to="/school" :class="linkClass" active-class="border-b-2">
           School
         </router-link>
-        <router-link to="/resume" :class="linkClass" active-class="border-b-2">
+        <!-- Comment out since not used now -->
+        <!-- <router-link to="/resume" :class="linkClass" active-class="border-b-2">
           Resume
-        </router-link>
+        </router-link>  -->
         <router-link
           to="/projects"
           :class="linkClass"
