@@ -13,7 +13,7 @@
       :isIframe="project.isIframe"
     />
     <hr class="my-8 border-blue-600" />
-    <h3 class="text-2xl font-semibold text-gray-700 mt-10 mb-4">
+    <h3 class="text-2xl font-semibold text-blue-700 mt-10 mb-4">
       Master’s Course Reports (PDFs)
     </h3>
     <ProjectCard
