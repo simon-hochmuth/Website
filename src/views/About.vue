@@ -14,21 +14,25 @@
         </h3>
         <ul class="list-disc list-inside space-y-2 text-left text-gray-700">
           <li>
-            Advanced analytics & interactive dashboards (Python, SQL, Tableau,
-            Streamlit)
+            <strong>Advanced analytics & dashboards (5+ years)</strong>: Python,
+            SQL, Tableau, Qlik, Streamlit
           </li>
           <li>
-            Forecasting & machine learning for finance and workforce planning
+            <strong
+              >Executive reporting & stakeholder engagement (4+ years)</strong
+            >: C-suite consulting, strategic advising
           </li>
           <li>
-            Full-stack web apps (Vue, Vite, C#, .NET, JavaScript, Next.js)
+            <strong>Forecasting & machine learning (5+ years)</strong>:
+            Scikit-Learn, TensorFlow, Keras, PyTorch, Prophet, ARIMA, SciPy
           </li>
           <li>
-            C-suite reporting, consulting, and executive stakeholder engagement
+            <strong>End-to-end data pipelines (5+ years)</strong>: Databricks,
+            AWS, Spark, MongoDB, SQL, Python
           </li>
           <li>
-            End-to-end data pipelines (Databricks, AWS, Spark, MongoDB, SQL,
-            Python)
+            <strong>Full-stack web apps (2+ years)</strong>: Vue, C#, .NET,
+            JavaScript, Python, SQL
           </li>
         </ul>
       </div>
@@ -36,10 +40,18 @@
       <div class="bg-white shadow rounded-lg p-6">
         <h3 class="text-2xl font-semibold text-green-700 mb-3">🌍 Personal</h3>
         <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li>Open to new opportunities</li>
-          <li>Climber, hiker, technologist and soccer enthusiast</li>
+          <li><strong>Open to new opportunities</strong></li>
           <li>
-            Always learning — currently exploring frameworks like Vue/Next.JS
+            <strong>Passions</strong>: Climbing, hiking, tech tinkering, and
+            Washington Spirit season ticket holder
+          </li>
+          <li>
+            <strong>Always learning</strong>: Currently exploring Vue, Next.js,
+            and Django
+          </li>
+          <li>
+            <strong>Fun fact</strong>: North Dakota is the only state in the
+            continental U.S. I haven’t visited (yet!)
           </li>
         </ul>
       </div>
