@@ -32,6 +32,12 @@ import ProjectCard from "@/components/ProjectCard.vue";
 
 const notebooks = [
   {
+    title: "Hugging Face : Fine-Tuning BERT (Sentiment Analysis)",
+    description:
+      "Fine-tuning BERT for sentiment analysis using the Hugging Face library.",
+    link: "https://huggingface.co/spaces/SimonHochmuth1/Bert_Sentiment_Model",
+  },
+  {
     title: "API & EDA : NYC 311 Complaints",
     description:
       "Data pipeline project for fetching, cleaning, and analyzing NYC 311 service requests.",
